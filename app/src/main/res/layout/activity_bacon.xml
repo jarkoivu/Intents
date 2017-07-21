@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72231F"
+    tools:context="com.example.jari.intents.Bacon">
+
+    <TextView
+        android:id="@+id/baconText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:text="@string/bacon"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bacomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baconText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:onClick="onClick"
+        android:text="@string/back"
+        tools:text="Back" />
+</android.widget.RelativeLayout>
